@@ -120,7 +120,7 @@ header .logo img{
 
 #home .content{
     width: 60vw;
-    margin-top: 12vh;
+    margin-top: 15vh;
     display: flex;
 }
 
@@ -217,7 +217,7 @@ footer .content{
 
     #home .content {
       width: 60vw;
-      margin-top: 12vh;
+      margin-top: 15vh;
     }
   
     #home .space-evenly {
@@ -242,41 +242,45 @@ footer .content{
     }
   }
   
-  /* Estilos para telas médias */
-  @media (max-width: 767px) {
-    .header{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
+/* Estilos para telas médias */
+@media (max-width: 767px) {
+    .header {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
     }
-
-    header .content{
-        width: 90vw;
+  
+    header .content {
+      width: 90vw;
     }
-    #home .content .inner-content img{
-        width: 250px;
-        height: fit-content;
+  
+    #home .content .inner-content img {
+      max-width: 250px;
+      height: auto;
     }
-    .logo{
-        width: 70vw;
-        margin-right: 40px;
+  
+    .logo {
+      width: 70vw;
+      margin-right: 40px;
     }
-    .logo img{
-        max-width: 150px;
-        height: fit-content;
+  
+    .logo img {
+      max-width: 150px;
+      height: auto;
     }
+  
     .container {
       width: 90vw;
       padding: 20px;
     }
   
     #home .content {
-        width: 80vw;
-        margin-top: 12vh;
-        display: flex;
-        margin-left: -10px;
-        flex-direction: column;
-        background: white;
+      width: 80vw;
+      margin-top: 15vh;
+      display: flex;
+      margin-left: -10px;
+      flex-direction: column;
+      background: white;
     }
   
     #home .space-evenly {
@@ -297,15 +301,15 @@ footer .content{
       width: 100%;
     }
   
-    footer{
-      display:flex;
+    footer {
+      display: flex;
       flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      justify-content: center;
+      align-items: center;
     }
-
-    footer .content{
-        margin: 30px 0;
+  
+    footer .content {
+      margin: 30px 0;
     }
   }
   
