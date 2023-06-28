@@ -180,3 +180,18 @@ footer .content img{
 footer .content{
     width: 300px;
 }
+
+.btn-outline {
+    padding: 5px 15px 8px 15px;
+    border-radius: 40px;
+    border: 1px black solid;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.btn-outline:hover{
+    border: 1px black solid;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
