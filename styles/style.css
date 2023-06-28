@@ -10,7 +10,7 @@
 
 body {
     background: linear-gradient(30deg, #ffebef, #ffebdf, #ccffff);
-    background-size: 200% 100%;
+    background-size: 200% 200%;
     animation: bg-gradient 10s ease-in-out infinite;
 }
 
@@ -90,7 +90,7 @@ section h1{
     top: 0;
     margin-left: auto;
     margin-bottom: auto;
-    width: 100%;
+    width: 100vw;
     z-index: 9999;
     transition: background-color 0.3s ease-in-out;
 }
@@ -100,6 +100,7 @@ section h1{
 
 header .content{
     width: 70vw;
+    padding: 20px;
 }
 
 header .nav-menu ul li{
@@ -113,7 +114,7 @@ header .nav-menu ul li{
 }
 
 header .logo img{
-    width: 200px;
+    width: 220px;
     height: fit-content;
 }
 
@@ -196,3 +197,107 @@ footer .content{
     color: white;
     background-color: black;
 }
+
+/* Estilos para telas grandes */
+@media (min-width: 768px) {
+    .header{
+        padding-top: 20px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+      width: 70vw;
+      padding: 20px 40px;
+    }
+  
+    #home .content {
+      width: 60vw;
+      margin-top: 12vh;
+    }
+  
+    #home .space-evenly {
+      padding: 35px;
+    }
+  
+    #home .social-media {
+      width: calc(60vw - 200px);
+    }
+  
+    #about .content {
+      width: 60vw;
+      text-align: center;
+    }
+  
+    #pages .space-between {
+      width: 100%;
+    }
+  
+    footer .content {
+      width: 300px;
+    }
+  }
+  
+  /* Estilos para telas médias */
+  @media (max-width: 767px) {
+    .header{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .content{
+        width: 90vw;
+    }
+
+    .logo{
+        width: 70vw;
+        margin-right: 40px;
+    }
+    .logo img{
+        max-width: 150px;
+    }
+    .container {
+      width: 90vw;
+      padding: 20px;
+    }
+  
+    #home .content {
+        width: 80vw;
+        margin-top: 12vh;
+        display: flex;
+        margin-left: -10px;
+        flex-direction: column;
+        background: white;
+    }
+  
+    #home .space-evenly {
+      padding: 25px;
+    }
+  
+    #home .social-media {
+      width: 80vw;
+      display: flex;
+    }
+  
+    #about .content {
+      width: 70vw;
+      text-align: center;
+    }
+  
+    #pages .space-between {
+      width: 100%;
+    }
+  
+    footer{
+      display:flex;
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .content{
+        margin: 30px 0;
+    }
+  }
+  
