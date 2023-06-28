@@ -255,6 +255,7 @@ footer .content{
     }
     .logo img{
         max-width: 150px;
+        height: fit-content;
     }
     .container {
       width: 90vw;
