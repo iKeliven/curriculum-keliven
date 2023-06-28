@@ -209,7 +209,12 @@ footer .content{
       width: 70vw;
       padding: 20px 40px;
     }
-  
+    
+    #home .content .inner-content img{
+        width: 200px;
+        height: fit-content;
+    }
+
     #home .content {
       width: 60vw;
       margin-top: 12vh;
@@ -248,7 +253,10 @@ footer .content{
     header .content{
         width: 90vw;
     }
-
+    #home .content .inner-content img{
+        width: 250px;
+        height: fit-content;
+    }
     .logo{
         width: 70vw;
         margin-right: 40px;
